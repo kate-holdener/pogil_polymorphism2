@@ -11,7 +11,7 @@ public class Cylinder
 
    public double getArea()
    {
-      return 2 * this.base.getArea() + this.base.getPerimeter() * this.height;
+      return 2 * this.base.getArea() + this.base.getCircumference() * this.height;
    }
 
    public double getVolume()

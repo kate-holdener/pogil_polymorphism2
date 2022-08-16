@@ -19,7 +19,7 @@ public class Circle
       return Math.PI * this.radius * this.radius;
    }
 
-   public double getPerimeter()
+   public double getCircumference()
    {
       return 2 * Math.PI * this.radius;
    }
