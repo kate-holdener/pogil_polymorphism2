@@ -7,7 +7,7 @@ public class Constant2D implements Function2D
     }
 
     @Override
-    public double eval(double x)
+    public double getY(double x)
     {
         return this.value;
     }
